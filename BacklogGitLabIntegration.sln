@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacklogGitLabIntegration.Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Tests", "tests\BacklogGitLabIntegration.Tests\BacklogGitLabIntegration.Tests.csproj", "{26A10041-FBAC-4EA8-964E-E19338C7D76D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Application.Shared", "BacklogGitLabIntegration.Application.Shared\BacklogGitLabIntegration.Application.Shared.csproj", "{F0F7F30E-9F14-446C-AEC2-ED173CC33773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Core.Shared", "BacklogGitLabIntegration.Core.Shared\BacklogGitLabIntegration.Core.Shared.csproj", "{AFD5E7F8-3323-49D5-8387-3473650917A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{26A10041-FBAC-4EA8-964E-E19338C7D76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A10041-FBAC-4EA8-964E-E19338C7D76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A10041-FBAC-4EA8-964E-E19338C7D76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F7F30E-9F14-446C-AEC2-ED173CC33773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F7F30E-9F14-446C-AEC2-ED173CC33773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F7F30E-9F14-446C-AEC2-ED173CC33773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F7F30E-9F14-446C-AEC2-ED173CC33773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD5E7F8-3323-49D5-8387-3473650917A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD5E7F8-3323-49D5-8387-3473650917A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD5E7F8-3323-49D5-8387-3473650917A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD5E7F8-3323-49D5-8387-3473650917A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

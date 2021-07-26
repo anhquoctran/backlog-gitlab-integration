@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper.StrongName" Version="2.0.90" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BacklogGitLabIntegration.Core.Shared\BacklogGitLabIntegration.Core.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
