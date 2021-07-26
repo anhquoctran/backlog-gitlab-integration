@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Api", "BacklogGitLabIntegration.Api\BacklogGitLabIntegration.Api.csproj", "{A22E0317-E32C-4E1E-8FCF-D54D058D6EFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Core", "BacklogGitLabIntegration.Core\BacklogGitLabIntegration.Core.csproj", "{6779CE3B-3A2D-41BB-ACD3-EB69D8D79B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Application", "BacklogGitLabIntegration.Application\BacklogGitLabIntegration.Application.csproj", "{8001B91F-F011-4788-8185-BB2EEB5537D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Migrator", "BacklogGitLabIntegration.Migrator\BacklogGitLabIntegration.Migrator.csproj", "{0D49FA2E-C939-4FCE-ADBE-80D44C01E265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Dapper", "BacklogGitLabIntegration.Dapper\BacklogGitLabIntegration.Dapper.csproj", "{6E878CFB-5117-4D76-A35C-38E917597DBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{A22E0317-E32C-4E1E-8FCF-D54D058D6EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A22E0317-E32C-4E1E-8FCF-D54D058D6EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A22E0317-E32C-4E1E-8FCF-D54D058D6EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6779CE3B-3A2D-41BB-ACD3-EB69D8D79B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6779CE3B-3A2D-41BB-ACD3-EB69D8D79B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6779CE3B-3A2D-41BB-ACD3-EB69D8D79B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6779CE3B-3A2D-41BB-ACD3-EB69D8D79B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8001B91F-F011-4788-8185-BB2EEB5537D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8001B91F-F011-4788-8185-BB2EEB5537D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8001B91F-F011-4788-8185-BB2EEB5537D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8001B91F-F011-4788-8185-BB2EEB5537D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D49FA2E-C939-4FCE-ADBE-80D44C01E265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D49FA2E-C939-4FCE-ADBE-80D44C01E265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D49FA2E-C939-4FCE-ADBE-80D44C01E265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D49FA2E-C939-4FCE-ADBE-80D44C01E265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E878CFB-5117-4D76-A35C-38E917597DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E878CFB-5117-4D76-A35C-38E917597DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E878CFB-5117-4D76-A35C-38E917597DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E878CFB-5117-4D76-A35C-38E917597DBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
