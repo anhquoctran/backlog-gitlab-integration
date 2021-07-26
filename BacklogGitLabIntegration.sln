@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Api", "BacklogGitLabIntegration.Api\BacklogGitLabIntegration.Api.csproj", "{A22E0317-E32C-4E1E-8FCF-D54D058D6EFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacklogGitLabIntegration.Api", "src\BacklogGitLabIntegration.Api\BacklogGitLabIntegration.Api.csproj", "{A22E0317-E32C-4E1E-8FCF-D54D058D6EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Core", "BacklogGitLabIntegration.Core\BacklogGitLabIntegration.Core.csproj", "{6779CE3B-3A2D-41BB-ACD3-EB69D8D79B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacklogGitLabIntegration.Core", "src\BacklogGitLabIntegration.Core\BacklogGitLabIntegration.Core.csproj", "{6779CE3B-3A2D-41BB-ACD3-EB69D8D79B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Application", "BacklogGitLabIntegration.Application\BacklogGitLabIntegration.Application.csproj", "{8001B91F-F011-4788-8185-BB2EEB5537D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacklogGitLabIntegration.Application", "src\BacklogGitLabIntegration.Application\BacklogGitLabIntegration.Application.csproj", "{8001B91F-F011-4788-8185-BB2EEB5537D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Migrator", "BacklogGitLabIntegration.Migrator\BacklogGitLabIntegration.Migrator.csproj", "{0D49FA2E-C939-4FCE-ADBE-80D44C01E265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacklogGitLabIntegration.Migrator", "src\BacklogGitLabIntegration.Migrator\BacklogGitLabIntegration.Migrator.csproj", "{0D49FA2E-C939-4FCE-ADBE-80D44C01E265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Dapper", "BacklogGitLabIntegration.Dapper\BacklogGitLabIntegration.Dapper.csproj", "{6E878CFB-5117-4D76-A35C-38E917597DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacklogGitLabIntegration.Dapper", "src\BacklogGitLabIntegration.Dapper\BacklogGitLabIntegration.Dapper.csproj", "{6E878CFB-5117-4D76-A35C-38E917597DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGitLabIntegration.Tests", "tests\BacklogGitLabIntegration.Tests\BacklogGitLabIntegration.Tests.csproj", "{26A10041-FBAC-4EA8-964E-E19338C7D76D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6E878CFB-5117-4D76-A35C-38E917597DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E878CFB-5117-4D76-A35C-38E917597DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E878CFB-5117-4D76-A35C-38E917597DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A10041-FBAC-4EA8-964E-E19338C7D76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A10041-FBAC-4EA8-964E-E19338C7D76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A10041-FBAC-4EA8-964E-E19338C7D76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A10041-FBAC-4EA8-964E-E19338C7D76D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
