@@ -7,11 +7,16 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.90" />
     <PackageReference Include="Dapper.StrongName" Version="2.0.90" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.0.4" />
     <PackageReference Include="Z.Dapper.Plus" Version="4.0.9" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BacklogGitLabIntegration.Core\BacklogGitLabIntegration.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UnitOfWorks\" />
   </ItemGroup>
 
 </Project>

@@ -16,4 +16,10 @@
     <ProjectReference Include="..\BacklogGitLabIntegration.Application\BacklogGitLabIntegration.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="db\db.sqlite3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
