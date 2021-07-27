@@ -1,5 +1,5 @@
 ﻿
-namespace BacklogGitLabIntegration.Core.Shared.Models.Concrete
+namespace BacklogGitLabIntegration.Core.Shared.Models.Abstracts
 {
     public interface ICreationAudited: ICreationAudited<int> { }
 

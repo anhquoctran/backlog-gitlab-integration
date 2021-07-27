@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BacklogGitLabIntegration.Core.Shared.Models.Concrete
+namespace BacklogGitLabIntegration.Core.Shared.Models.Abstracts
 {
     public interface IMofificationTime : IHasCreationTime<int>
     {

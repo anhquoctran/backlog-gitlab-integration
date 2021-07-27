@@ -7,7 +7,6 @@
   <ItemGroup>
     <Folder Include="Enums\" />
     <Folder Include="Constants\" />
-    <Folder Include="Models\Abstracts\" />
   </ItemGroup>
 
 </Project>
